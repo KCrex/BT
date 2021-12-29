@@ -1,0 +1,210 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+}
+
+.header-addess {
+    width: 33.33%;
+    height: 50px;
+    text-align: center;
+    border-style: double;
+    background-color: black;
+    color: white;
+}
+
+.header-number-phone {
+    width: 33.33%;
+    height: 50px;
+    text-align: center;
+    border-style: double;
+    background-color: black;
+    color: white;
+}
+
+.header-clone {
+    width: 33.33%;
+    height: 50px;
+}
+
+.body {
+    display: flex;
+}
+
+.middle-top {
+    display: flex;
+    height: 50%;
+}
+
+.column-left {
+    border-style: solid;
+    width: 25%;
+    height: 500px;
+}
+
+.column-middle {
+    border-style: solid;
+    width: 50%;
+    height: 500px;
+}
+
+.middle-top-left {
+    background-color: black;
+    border-style: solid;
+    width: 50%;
+    height: 100%;
+}
+
+.middle-top-right {
+    border-style: solid;
+    width: 50%;
+    height: 100%;
+}
+
+.middle-top-top {
+    color: white;
+    background-color: black;
+    text-align: center;
+    border-style: solid;
+    height: 50%;
+}
+
+.middle-top-bot {
+    text-align: center;
+    height: 50%;
+}
+
+.midder-bot {
+    border-style: solid;
+    width: 100%;
+    height: 50%;
+}
+
+.column-right {
+    border-style: solid;
+    width: 25%;
+    height: 500px;
+}
+
+.last {
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+
+.last-left {
+    border-style: solid;
+    width: 25%;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.last-middle-left {
+    border-style: solid;
+    width: 25%;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.last-middle-right {
+    border-style: solid;
+    width: 25%;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.last-right {
+    border-style: solid;
+    width: 25%;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+}
+
+h1:hover {
+    background-color: red;
+    color: white;
+}
+
+@media screen and (max-width: 700px) {
+    .header-addess {
+        width: 50%;
+        height: 100px;
+    }
+
+    .header-clone {
+        width: 0%;
+    }
+
+    .header-number-phone {
+        width: 50%;
+        height: 100px;
+    }
+
+    .body {
+        flex-wrap: wrap;
+    }
+
+    .column-left {
+        width: 50%;
+        height: 500px;
+    }
+
+    .column-middle {
+        width: 50%;
+        height: 500px;
+    }
+
+    .column-right {
+        width: 100%;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width:699px) {
+    .header-addess {
+        width: 50%;
+        height: 100px;
+    }
+
+    .header-number-phone {
+        width: 50%;
+        height: 100px;
+    }
+
+    .body {
+        flex-wrap: wrap;
+    }
+
+    .column-left {
+        width: 100%;
+        height: 500px;
+    }
+
+    .column-middle {
+        width: 100%;
+        height: 500px;
+    }
+
+    .column-right {
+        width: 100%;
+        height: 500px;
+    }
+}
